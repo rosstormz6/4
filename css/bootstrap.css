@@ -1,0 +1,3661 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700,700i&display=swap&subset=latin-ext";
+@import "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap&subset=cyrillic,latin-ext";
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+.nowrap {
+    white-space: nowrap
+}
+
+figure, footer, header, section {
+    display: block
+}
+
+a {
+    background-color: transparent
+}
+
+a:active, a:hover {
+    outline: 0;
+    text-decoration: none !important
+}
+
+b, strong {
+    font-weight: 700
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em
+}
+
+img {
+    border: 0
+}
+
+figure {
+    margin: 1em 40px
+}
+
+button, input, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+input {
+    line-height: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #FFF
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 17px
+    }
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+a {
+    color: #337AB7;
+    text-decoration: none
+}
+
+a:hover, a:focus {
+    color: #23527C;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+figure {
+    margin: 0
+}
+
+img {
+    vertical-align: middle
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+h1, h2, h3, h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 18px
+}
+
+p {
+    margin: 0 0 10px
+}
+
+.small {
+    font-size: 85%
+}
+
+.text-center {
+    text-align: center
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.col-sm-2, .col-sm-4, .col-md-4, .col-sm-5, .col-sm-6, .col-md-6, .col-sm-7, .col-sm-8, .col-md-8, .col-sm-10, .col-sm-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width: 768px) {
+    .col-sm-2, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-10, .col-sm-12 {
+        float: left
+    }
+
+    .col-sm-12 {
+        width: 100%
+    }
+
+    .col-sm-10 {
+        width: 83.33333333%
+    }
+
+    .col-sm-8 {
+        width: 66.66666667%
+    }
+
+    .col-sm-7 {
+        width: 58.33333333%
+    }
+
+    .col-sm-6 {
+        width: 50%
+    }
+
+    .col-sm-5 {
+        width: 41.66666667%
+    }
+
+    .col-sm-4 {
+        width: 33.33333333%
+    }
+
+    .col-sm-2 {
+        width: 16.66666667%
+    }
+
+    .col-sm-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-sm-offset-2 {
+        margin-left: 16.66666667%
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-4, .col-md-6, .col-md-8 {
+        float: left
+    }
+
+    .col-md-8 {
+        width: 66.66666667%
+    }
+
+    .col-md-6 {
+        width: 50%
+    }
+
+    .col-md-4 {
+        width: 33.33333333%
+    }
+
+    .col-md-offset-3 {
+        margin-left: 25%
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-12 {
+        float: left;
+        width: 100%
+    }
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+.collapse {
+    display: none
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.nav > li {
+    position: relative;
+    display: block
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: left
+    }
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important
+    }
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 14px;
+    flex-direction: column;
+    padding: 10px 0 0 15px;
+    overflow: visible;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 6px
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none
+}
+
+.navbar-brand > img {
+    display: block
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+.navbar-toggle:focus {
+    outline: 0
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: none
+    }
+}
+
+.navbar-nav {
+    margin: 7.5px -15px
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: left;
+        margin: 0
+    }
+
+    .navbar-nav > li {
+        float: left
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 19px;
+        padding-bottom: 10px
+    }
+}
+
+.container:before, .container:after, .row:before, .row:after, .nav:before, .nav:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after {
+    display: table;
+    content: " "
+}
+
+.container:after, .row:after, .nav:after, .navbar-header:after, .navbar-collapse:after {
+    clear: both
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.pull-right {
+    float: right !important
+}
+
+::-ms-clear {
+    display: none
+}
+
+select {
+    outline: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(https://179523.selcdn.ru/public/layout-images/select-triangle.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: right 10px center !important;
+    background-size: 10px 10px !important
+}
+
+select:hover {
+    background-size: 10px 10px;
+    background-position: right 10px center
+}
+
+select:focus {
+    outline: none !important;
+    outline-color: transparent;
+    outline-width: 0
+}
+
+select::-ms-expand {
+    display: none !important;
+    background: none !important;
+    position: fixed;
+    border: none !important;
+    outline: none !important
+}
+
+button::-moz-focus-inner, select::-moz-focus-inner, option::-moz-focus-inner {
+    border: none
+}
+
+:not(#fake) {
+    outline: none
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000
+}
+
+.pull-right {
+    float: right
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+body {
+    font-family: "Open Sans", sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+    width: auto !important;
+    overflow-x: hidden !important
+}
+
+.viraltext {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #050505;
+    padding: 25px 75px !important;
+    display: block
+}
+
+.formSeals {
+    padding: 15px 0
+}
+
+.formBox {
+    background-color: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 4px solid #0699EE;
+    margin-top: 0
+}
+
+.formTop {
+    background: #0699EE;
+    padding: 25px;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    overflow: visible
+}
+
+.formTop img {
+    float: right;
+    position: absolute;
+    top: 100px;
+    right: -30px;
+    padding: 0;
+    margin: 0;
+    display: none
+}
+
+.block6__description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.block6__product{
+    width: 110px;
+    margin-bottom: -10px;
+}
+.block6__product img{
+    width: 100%;
+    display: block;
+}
+.block6__product-name{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 120px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .9;
+}
+.block6__product-name_size{
+    display: inline-block;
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.header-box {
+    display: block;
+    margin-left: auto;
+    max-width: 600px;
+    width: 100%;
+    padding-top: 17px
+}
+
+.header-box__title {
+    text-shadow: 1px 1px 2px #000;
+    font-weight: 100 !important;
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    text-transform: uppercase
+}
+
+.header-box__subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #6B057E;
+    line-height: 1;
+    letter-spacing: -1.5px;
+    position: relative
+}
+
+.header-box__big {
+    font-weight: 700;
+    color: #6B057E;
+    font-size: 90px;
+    letter-spacing: -7.5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    transform: rotate(-9deg) skew(-15deg, 1deg);
+    text-align: right;
+    padding-right: 20px;
+    position: relative
+}
+
+.header-box__subtitle:before {
+    content: '';
+    position: absolute;
+    bottom: -71px;
+    left: 50%;
+    transform: translateX(-110%);
+    width: 49px;
+    height: 64px;
+    background: url(../images/to.png) no-repeat center;
+    display: none
+}
+
+.header-box__big span {
+    font-size: 128px;
+    letter-spacing: -14.5px
+}
+
+.header-box__imp {
+    text-align: center;
+    font-size: 24px;
+    padding-left: 150px;
+    margin-top: 75px;
+    position: relative
+}
+
+.header-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 25px;
+    position: relative
+}
+
+.header-list:before {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -37px;
+    left: -194px;
+    background: url(../images/keto-bottle.png) no-repeat center;
+    width: 180px;
+    height: 360px;
+    background-size: contain;
+    z-index: 10
+}
+
+.header-list__item {
+    position: relative;
+    padding-left: 70px;
+    z-index: 0;
+    margin-bottom: 30px
+}
+
+.header-list__item:before {
+    content: '';
+    position: absolute;
+    left: -16px;
+    top: -20px;
+    height: 112px;
+    width: 435px;
+    background: url(../images/header-list.png) center no-repeat;
+    background-size: contain;
+    z-index: -1
+}
+
+.comment-main {
+    background-color: #F3F7F8;
+    padding: 10px
+}
+
+.comment-date {
+    display: flex;
+    align-items: center;
+    position: relative
+}
+
+.comment-box:not(:last-child) {
+    margin-bottom: 20px
+}
+
+.comment-date:before {
+    content: '...';
+    color: #5C6284;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.comment-date-box {
+    margin-left: 8px
+}
+
+.comment-date__name {
+    color: #5C6284;
+    font-weight: 700;
+    font-size: 16px
+}
+
+.comment-date__time {
+    color: #94989B;
+    font-size: 12px
+}
+
+.comment-text {
+    margin-top: 10px;
+    font-size: 16px
+}
+
+.comment-date__avarar {
+    width: 50px;
+    flex-shrink: 0
+}
+
+.comment-date__avarar img {
+    max-width: 100%
+}
+
+.header-list__title {
+    font-weight: 700;
+    font-size: 17px;
+    font-style: italic
+}
+
+.footer-pack-box {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center
+}
+
+.plashka {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 153px;
+    height: 145px;
+    background: url(../images/plashka.png) no-repeat center;
+    background-size: contain;
+    color: #333334;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-top: 24px
+}
+
+.plashka:before {
+    content: '';
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-44%);
+    background: url(../images/footer-check.png) no-repeat center;
+    width: 53px;
+    height: 33px
+}
+
+.first-word {
+    font-size: 14px
+}
+
+.sec-word {
+    font-size: 14px
+}
+
+.header-list__subtitle {
+    font-size: 14px;
+    color: grey
+}
+
+.header-box__arrowLine {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    padding: 20px 0;
+    background: url(../images/bottom-arrow.png) no-repeat center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.arrowLine-first {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FFF;
+    line-height: 1
+}
+
+.arrowLine-second {
+    text-align: center;
+    line-height: 1;
+    color: #6B057E;
+    font-size: 18px
+}
+
+.formBody {
+    padding: 20px 15px 24px
+}
+
+#section1 h2 {
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #04A8F5
+}
+
+.desktop {
+    display: block
+}
+
+.mobile {
+    display: none
+}
+
+.nopad {
+    padding: 0;
+    margin: 0
+}
+
+.orange12 {
+    float: right
+}
+
+.knav {
+    color: #FC4000
+}
+
+.knav li a {
+    color: #666 !important;
+    font-weight: 600
+}
+
+.knav li a:hover {
+    color: #FC4000 !important
+}
+
+.allnatural-title {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    color: #435056
+}
+
+.allnatural-subtitle {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    font-size: 58px;
+    color: #435056
+}
+
+.mont60 {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-size: 60px;
+    font-weight: 400
+}
+
+.mont50 {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-size: 50px;
+    font-weight: 400
+}
+
+.os28 {
+    font: 28px "Open Sans", sans-serif;
+    color: #666;
+    line-height: normal;
+    font-weight: 300
+}
+
+.lighter {
+    font-weight: 300 !important
+}
+
+.dark {
+    color: #333
+}
+
+.orange {
+    color: #FC4200
+}
+
+.montbold {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700
+}
+
+.c2abtn {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 34px;
+    background: #F60;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer
+}
+
+.c2abtn:hover {
+    background: #F24D11;
+    text-decoration: none
+}
+
+.super {
+    font-weight: 800
+}
+
+.os33 {
+    font-size: 33px;
+    text-transform: uppercase
+}
+
+.space {
+    height: 20px;
+    display: block
+}
+
+.green {
+    color: #6EAD53
+}
+
+.centered {
+    margin: auto !important;
+    text-align: center !important
+}
+
+.vsdwn {
+    display: none
+}
+
+.content {
+    color: #666
+}
+
+.productTitle {
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif
+}
+
+.productSub {
+    font-size: 18px;
+    padding-bottom: 10px
+}
+
+.navbar-toggle {
+    display: none
+}
+
+.ketpoia-ketosis-banner {
+    background: url(../images/ketopia-ketosis-7day-bg.jpg) top center no-repeat;
+    min-height: 845px;
+    padding-top: 306px
+}
+
+.ketpoia-ketosis-banner .container h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700
+}
+
+.stayingKetosis {
+    background: url(../images/7day-bridge-ketopia-ketosis-bg2.jpg) top center no-repeat;
+    min-height: 847px;
+    padding-top: 320px
+}
+
+.stayingKetosis h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #262626;
+    font-size: 144px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 0 7px #fff
+}
+
+.stayingKetosis h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #FFF;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000
+}
+
+.ketopiainfo h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    color: #F60
+}
+
+.small {
+    font-size: 11px;
+    color: #999
+}
+
+.allnatural {
+    background: url(../images/all-natural-ketopia-bg.jpg) top -40px center no-repeat;
+    background: url(../images/all-natural-ketopia-bg.jpg) top center no-repeat;
+    min-height: 810px;
+    min-height: 850px;
+    padding-top: 220px
+}
+
+.viraltext {
+    display: block
+}
+
+.viraltextm {
+    display: none
+}
+
+@media (max-width: 1200px) {
+    .os28 {
+        font: 18px "Open Sans", sans-serif;
+        color: #666;
+        line-height: normal;
+        font-weight: 300
+    }
+}
+
+@media (max-width: 992px) {
+    .allnatural-subtitle {
+        font-size: 45px
+    }
+
+    .allnatural-title {
+        font-size: 48px
+    }
+
+    .os28 {
+        font: 21px "Open Sans", sans-serif;
+        color: #666;
+        line-height: normal;
+        font-weight: 300
+    }
+
+    .os33 {
+        font-size: 19px;
+        text-transform: uppercase
+    }
+}
+
+@media (max-width: 768px) {
+    .stayingKetosis h2 {
+        font-size: 75px !important;
+        line-height: 75px
+    }
+}
+
+@media (max-width: 767px) {
+    .ketpoia-ketosis-banner {
+        background: url(../images/ketopia-ketosis-7day-bg.jpg) top center no-repeat;
+        min-height: 845px;
+        padding-top: 290px
+    }
+
+    .allnatural-subtitle {
+        font-size: 42px
+    }
+
+    .allnatural-title {
+        font-size: 35px
+    }
+
+    .stayingKetosis h2 {
+        font-size: 75px !important;
+        line-height: 75px
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important
+    }
+
+    .navbar-brand p {
+        text-align: center
+    }
+
+    .navbar-header {
+        padding: 5px 0
+    }
+
+    .header-box__imp {
+        text-shadow: 1px 1px 2px #000000, 0 0 1em #6B057E;
+        color: #FFF
+    }
+
+    #science {
+        padding-top: 30px
+    }
+
+    .proof__btn {
+        width: 320px;
+        max-width: 100% !important
+    }
+
+    .formTop {
+        background: #0699EE;
+        padding: 25px;
+        color: #FFF;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        line-height: 30px;
+        overflow: visible
+    }
+
+    .desktop {
+        display: none
+    }
+
+    .mobile {
+        display: block
+    }
+
+    .viraltext {
+        display: none
+    }
+
+    .viraltextm {
+        text-align: center;
+        font-size: 2.5em;
+        color: #5C157A;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1em
+    }
+
+    .os28 {
+        font: 18px "Open Sans", sans-serif;
+        color: #666;
+        line-height: normal;
+        font-weight: 300
+    }
+
+    .os33 {
+        font-size: 18px;
+        text-transform: uppercase
+    }
+
+    .vsup {
+        display: none
+    }
+
+    .vsdwn {
+        display: block
+    }
+
+    .stayingKetosis h2 {
+        font-family: "Montserrat", sans-serif;
+        color: #262626;
+        font-size: 60px;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        text-align: center
+    }
+}
+
+.form-holder {
+    padding: 0 0 7px
+}
+
+.button {
+    display: block;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0 25px;
+    margin: 0;
+    position: relative;
+    border: none;
+    border-radius: 15px;
+    background: #F60
+}
+
+.button:hover {
+    background: #D95803
+}
+
+.popup p {
+    margin: 0
+}
+
+.popup-loading-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1100;
+    background: rgba(0, 0, 0, 0.95)
+}
+
+.popup-loading-wrapper .popup {
+    min-width: 300px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.popup-loading-wrapper .popup h2 {
+    width: 300px;
+    font-size: 32px;
+    color: #FFF;
+    line-height: 36px;
+    padding: 7px 0 22px;
+    margin: 0
+}
+
+.popup-loading-wrapper .popup p {
+    opacity: .5;
+    font-size: 18px;
+    padding: 8px 0 3px
+}
+
+.popup-loading-wrapper .popup .product-image {
+    width: 110px;
+    height: 176px;
+    margin: 0 auto 6px;
+    position: relative;
+    background: url(../images/keto-logo-lg.png) no-repeat left top
+}
+
+.popup-loading-wrapper .popup .loading-image {
+    width: 70px;
+    height: 70px;
+    margin: auto
+}
+
+@media (max-width: 1400px) {
+    .header-box {
+        padding-top: 15px
+    }
+
+    .header-box__title {
+        line-height: 1
+    }
+
+    .header-box__big {
+        font-size: 76px;
+        transform: rotate(-5deg) skew(-15deg, 1deg)
+    }
+
+    .header-box__big span {
+        font-size: 114px;
+        letter-spacing: -14.5px
+    }
+
+    .header-box__subtitle:before {
+        transform: translateX(-54%)
+    }
+
+    .header-box {
+        max-width: 528px
+    }
+
+    .header-list__item {
+        background-color: #F0F0F0;
+        border-top: 3px solid #FFF;
+        border-bottom: 3px solid #FFF;
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+
+    .header-list__item:before {
+        display: none
+    }
+
+    .header-list__item:after {
+        content: '';
+        position: absolute;
+        left: 11px;
+        top: 0;
+        background: url(../images/check.png) no-repeat center;
+        width: 50px;
+        height: 60px;
+        background-size: contain
+    }
+
+    .header-list:before {
+        top: -12px;
+        left: -179px
+    }
+
+    .header-list__title {
+        font-size: 18px
+    }
+
+    .header-list__item:before {
+        height: 107px;
+        width: 380px
+    }
+
+    .header-list__item {
+        margin-bottom: 9px
+    }
+
+    .header-list:before {
+        height: 330px
+    }
+
+    .arrowLine-first {
+        font-size: 33px;
+        font-size: 23px
+    }
+
+    .header-box__arrowLine {
+        margin-top: 0
+    }
+}
+
+.popup input, select {
+    vertical-align: middle
+}
+
+.popup select, .popup textarea, .popup input[type=tel], .popup input[type=text] {
+    width: 100%;
+    height: 34px;
+    display: block;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #52585D;
+    font-style: normal;
+    text-indent: 0;
+    line-height: 16px;
+    outline: none;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid #D4D4D4;
+    background: #FFF
+}
+
+.popup select {
+    padding: 7px 6px 8px
+}
+
+.popup textarea::-webkit-input-placeholder, .popup input[type=tel]::-webkit-input-placeholder, .popup input[type=text]::-webkit-input-placeholder {
+    color: #52585D;
+    font-size: 14px;
+    font-style: normal
+}
+
+.popup textarea::-moz-placeholder, .popup input[type=tel]::-moz-placeholder, .popup input[type=text]::-moz-placeholder {
+    color: #52585D;
+    font-size: 14px;
+    font-style: normal
+}
+
+.popup textarea:-moz-placeholder, .popup input[type=tel]:-moz-placeholder, .popup input[type=text]:-moz-placeholder {
+    color: #52585D;
+    font-size: 14px;
+    font-style: normal
+}
+
+.popup textarea:-ms-input-placeholder, .popup input[type=tel]:-ms-input-placeholder, .popup input[type=text]:-ms-input-placeholder {
+    color: #52585D;
+    font-size: 14px;
+    font-style: normal
+}
+
+.popup select:focus, .popup textarea:focus, .popup input[type=tel]:focus, .popup input[type=text]:focus {
+    margin: 0;
+    font-size: 14px;
+    border: 1px solid #AAA;
+    font-style: normal
+}
+
+.popup button {
+    outline: none
+}
+
+.popup textarea {
+    width: 90%;
+    height: 100px;
+    resize: vertical;
+    padding: 10px
+}
+
+.popup .form-holder {
+    padding: 0 0 7px
+}
+
+.popup * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.form-holder {
+    position: relative
+}
+
+.error-message {
+    height: 32px;
+    display: none;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 32px;
+    white-space: nowrap;
+    padding: 0 10px;
+    margin: 0 35px 0 0;
+    position: absolute;
+    right: 100%;
+    top: 1px;
+    z-index: 16;
+    border-radius: 3px 0 0 3px;
+    background: #EF4B52
+}
+
+.error-message:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    border-top: 16px solid transparent;
+    border-left: 10px solid #EF4B52;
+    border-bottom: 16px solid transparent
+}
+
+.popup h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 34px;
+    text-indent: 0
+}
+
+.popup h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-indent: 0
+}
+
+.popup {
+    font-family: sans-serif
+}
+
+@media screen and (max-width: 767px) {
+    .main-page .row {
+        margin: 0
+    }
+
+    .error-message {
+        height: auto;
+        font-size: 12px;
+        color: #EF4B52;
+        line-height: 22px;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        background: none
+    }
+
+    .error-message:after {
+        display: none
+    }
+
+    .stayingKetosis h2 {
+        line-height: 80px
+    }
+
+    .formBody button {
+        height: 90px;
+        background-size: auto;
+        background-position: center
+    }
+
+    .formBody button:hover {
+        background-size: contain
+    }
+}
+
+@media screen and (max-width: 479px) {
+    body {
+        min-width: 320px
+    }
+
+    #theproof img {
+        width: 300px;
+        height: auto;
+        margin: auto
+    }
+
+    .stayingKetosis h2 {
+        font-size: 51px !important;
+        line-height: 60px
+    }
+
+    #whatyouget .c2abtn {
+        font-size: 16px
+    }
+
+    #howto .container {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    #howto h1 {
+        font-size: 25px;
+        text-align: center
+    }
+
+    .plashka {
+        display: none
+    }
+
+    .padding-fix {
+        padding: 0 !important
+    }
+
+    .allnatural-title {
+        font-size: 25px
+    }
+
+    .allnatural-subtitle {
+        font-size: 28px
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .formBody button {
+        height: 90px;
+        background-size: 100% auto
+    }
+
+    .navbar-brand {
+        letter-spacing: -.5px;
+        padding: 10px 0 0
+    }
+
+    .c2abtn {
+        font-size: 26px
+    }
+
+    #theproof img, .vsdwn img {
+        width: 100%;
+        height: auto
+    }
+}
+
+@media screen and (max-height: 340px) {
+    .popup-loading-wrapper .popup p {
+        padding: 3px 0
+    }
+
+    .popup-loading-wrapper .popup h2 {
+        padding: 2px 0 7px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1.mont60 {
+        margin-top: 0
+    }
+
+    #whatyouget .space {
+        height: 10px
+    }
+
+    .stayingKetosis {
+        margin-top: -40px;
+        min-height: 800px
+    }
+
+    #howto br {
+        display: none
+    }
+
+    .allnatural {
+        margin-top: -40px;
+        min-height: 800px
+    }
+
+    #science br {
+        display: none
+    }
+
+    #science2 br {
+        display: none
+    }
+
+    .ketpoia-ketosis-banner {
+        margin-top: -40px;
+        min-height: 800px
+    }
+}
+
+@media screen and (max-width: 535px) {
+    h1.mont60 {
+        margin-top: 0
+    }
+
+    #science br {
+        display: none
+    }
+
+    #science2 br {
+        display: none
+    }
+
+    .ketpoia-ketosis-banner {
+        margin-top: -40px;
+        min-height: 800px
+    }
+
+    #whatyouget .space {
+        height: 10px
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1.mont60 {
+        margin-top: 0
+    }
+
+    .formTop {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    #whatyouget .space {
+        height: 10px
+    }
+
+    .stayingKetosis {
+        margin-top: -40px;
+        min-height: 800px
+    }
+
+    .allnatural {
+        margin-top: -40px;
+        min-height: 800px
+    }
+
+    .ketpoia-ketosis-banner {
+        margin-top: -40px;
+        min-height: 800px
+    }
+
+    #howto br {
+        display: none
+    }
+
+    #science br {
+        display: block;
+        content: "";
+        height: 5px
+    }
+
+    #science br:after {
+        content: "\00a0"
+    }
+
+    #science2 br {
+        display: none
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #whatyouget .c2abtn {
+        font-size: 16px
+    }
+
+    #howto .c2abtn {
+        font-size: 26px
+    }
+}
+
+.form__label {
+    position: relative;
+    display: block;
+    margin: 0 0 7px
+}
+
+.form__input, .form__label select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-family: inherit
+}
+
+.form__input:focus {
+    border-color: #66AFE9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.price {
+    display: flex;
+    margin-bottom: 20px
+}
+
+.price__new, .price__old {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.price__old {
+    margin-right: 12px;
+    padding-right: 14px;
+    position: relative;
+    width: 50%
+}
+
+.price__old::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #343333;
+    height: 53px;
+    width: 1px;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.price__new {
+    width: 50%
+}
+
+.price__title {
+    line-height: 1
+}
+
+.price__title--old {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 0
+}
+
+.price__title--new {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 0
+}
+
+.price__value {
+    margin-top: auto;
+    word-spacing: -1.5px
+}
+
+.price__value--new {
+    margin-top: auto
+}
+
+.price__value--old {
+    margin-bottom: 2px
+}
+
+.price__num {
+    line-height: .95
+}
+
+.price__num--old {
+    font-size: 26px;
+    color: #A2A1A1;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    position: relative
+}
+
+.price__num--old::after, .price__num--old::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: calc(100% + 6px);
+    height: 1px;
+    background-color: #F2304E;
+    top: 50%;
+    left: 2px;
+    -webkit-transform: translateY(-50%) rotate(20deg);
+    transform: translateY(-50%) rotate(20deg)
+}
+
+.price__num--old::after {
+    -webkit-transform: translateY(-50%) rotate(-20deg);
+    transform: translateY(-50%) rotate(-20deg)
+}
+
+.price__num--new {
+    font-size: 38px;
+    color: #6F9E42;
+    font-weight: 900;
+    letter-spacing: -3px
+}
+
+.price__currency {
+    font-size: 18px
+}
+
+.price__currency--old {
+    color: #A2A1A1;
+    font-size: 16px
+}
+
+.price__currency--new {
+    color: #6F9E42;
+    position: relative;
+    font-weight: 500
+}
+
+.custom-row {
+    margin-left: 0;
+    margin-right: 0
+}
+
+li a.order-btn {
+    border-radius: 15px;
+    font-size: 18px;
+    background: #F60;
+    font-weight: 600;
+    padding: 4px 12px;
+    text-decoration: none;
+    border: none;
+    transform: translateY(55%);
+    color: #FFF !important
+}
+
+li a.order-btn:hover, li a.order-btn:focus {
+    background: #F24D11 !important;
+    color: #FFF !important;
+    text-decoration: none
+}
+
+.img-caption {
+    color: #F60;
+    font-weight: 700
+}
+
+.how__list {
+    margin-bottom: 0
+}
+
+body, html {
+    overflow-x: hidden
+}
+
+.orange-btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    margin-top: 25px;
+    padding: 0 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    font-size: 30px;
+    line-height: 1.1;
+    background: #f60;
+    text-decoration: none;
+    border: none
+}
+
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
+    .orange-btn {
+        height: 80px
+    }
+}
+
+.proof__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.proof__prod {
+    max-width: 50%
+}
+
+.proof__btn {
+    transition: .3s;
+    max-width: 50%;
+    min-width: 200px;
+    margin-left: 8px
+}
+
+.proof__btn:hover {
+    transform: translateX(-4%);
+    transition: .3s
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.footer__btn {
+    background-color: #FF4200;
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: inherit;
+    border: none;
+    border-radius: 24px;
+    padding: 7px 50px;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 20px
+}
+
+.footer__btn:hover {
+    background-color: #CA3400;
+    color: #CCC
+}
+
+.whatyouget__content {
+    position: relative
+}
+
+.non-gmo {
+    position: absolute;
+    right: calc(50% - 150px);
+    bottom: -100px;
+    z-index: 2
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333
+}
+
+h2 {
+    color: #F18704;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+h3 {
+    color: #F18704;
+    text-transform: uppercase
+}
+
+h4 {
+    color: #333;
+    font-weight: 400
+}
+
+.tac {
+    text-align: center
+}
+
+ul {
+    list-style-image: url(../images/check-mark.png)
+}
+
+.whatyouget__list {
+    font-weight: 700
+}
+
+.popup__content {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.popup__form {
+    margin-top: 0;
+    max-width: 100%;
+    width: 350px
+}
+
+.popup__form .formTop {
+    padding: 25px 10px;
+    font-size: 28px
+}
+
+.popup__prod img {
+    max-width: 100%
+}
+
+@media screen and (max-width: 1200px) {
+    .ketpoia-ketosis-banner {
+        padding-top: 176px
+    }
+
+    .stayingKetosis {
+        padding-bottom: 40px
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .block6__description{
+        justify-content: center;
+    }
+    .viraltext {
+        line-height: 1.3;
+        font-size: 22px;
+        padding: 20px !important
+    }
+
+    .popup__content {
+        background: url(../images/one.png) no-repeat top right -200px
+    }
+
+    .popup__prod {
+        max-width: 200px
+    }
+
+    .inL_307176.inL_307176 {
+        padding-top: 0
+    }
+
+    .header-list__title {
+        font-size: 16px
+    }
+
+    .header-list__subtitle {
+        font-size: 12px;
+        color: grey
+    }
+
+    #section1 h2 {
+        margin-top: 0
+    }
+
+    .header-list__item {
+        padding-left: 58px;
+        margin-bottom: 18px
+    }
+
+    .header-list__item:after {
+        left: 4px
+    }
+
+    .header-box__imp {
+        padding-left: 15px;
+        margin-top: 93px
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .magazine {
+        transform: translateY(25%)
+    }
+
+    .science__title {
+        margin-top: 0
+    }
+
+    .ketpoia-ketosis-banner {
+        min-height: 814px
+    }
+
+    .stayingKetosis {
+        background-size: contain;
+        margin-top: 0;
+        padding-top: 100px;
+        min-height: 0;
+        padding-bottom: 100px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .block6__description {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block6__product-name {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .popup__content {
+        padding: 0;
+        background: none
+    }
+
+    .extra-no-mb-mob {
+        margin-bottom: 0
+    }
+
+    .orange-btn {
+        margin-top: 20px
+    }
+
+    li a.order-btn {
+        transform: none
+    }
+
+    .productTitle {
+        font-size: 22px
+    }
+
+    .stayingKetosis h3 {
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+
+    .popup__prod {
+        display: none
+    }
+
+    .formBox {
+        margin-top: 0
+    }
+
+    .header-box {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .header-box__big {
+        text-align: center
+    }
+
+    .header-list__item {
+        background-color: #F0F0F0;
+        border-top: 3px solid #FFF;
+        border-bottom: 3px solid #FFF;
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+
+    .c2abtn {
+        font-size: 22px
+    }
+
+    .proof__prod {
+        width: 280px;
+        max-width: 100%
+    }
+
+    .header-list__item {
+        margin-bottom: 10px
+    }
+
+    .header-list:before {
+        left: -165px;
+        height: 270px
+    }
+
+    .header-list__item:after {
+        content: '';
+        position: absolute;
+        left: 3px;
+        top: 1px;
+        background: url(../images/check.png) no-repeat center;
+        width: 38px;
+        height: 27px;
+        background-size: contain
+    }
+
+    .header-list__item {
+        padding-left: 43px
+    }
+
+    .header-list__item {
+        min-height: 50px
+    }
+
+    .viraltextm {
+        margin-top: 60px
+    }
+
+    .header-box__arrowLine {
+        display: none
+    }
+
+    .header-list__item:before {
+        display: none
+    }
+
+    .ketpoia-ketosis-banner {
+        background-size: auto 100%;
+        background-position: 60% 50%;
+        height: auto;
+        min-height: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-top: 0
+    }
+
+    .banner__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center
+    }
+
+    .banner__content img {
+        width: auto
+    }
+
+    .footer__btn {
+        font-size: 5vw;
+        border-radius: 3vw
+    }
+
+    .stayingKetosis {
+        min-height: 0;
+        padding-top: 210px;
+        padding-bottom: 50px
+    }
+
+    .allnatural {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-height: 0;
+        background-position: 50%;
+        background-size: auto 146%;
+        margin-top: 30px;
+        margin-bottom: 20px
+    }
+}
+
+@media (max-width: 767px) {
+    .magazine {
+        transform: none
+    }
+
+    .stayingKetosis {
+        min-height: 0;
+        margin-top: 0;
+        background-size: contain;
+        padding-top: 75px;
+        padding-bottom: 75px
+    }
+}
+
+@media (max-width: 540px) {
+    .header-list:before {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 260px
+    }
+
+    .header-list {
+        margin-left: 0;
+        padding-top: 280px
+    }
+
+    .header-list__subtitle {
+        font-size: 16px;
+        color: grey
+    }
+
+    .header-list__title {
+        font-size: 18px
+    }
+
+    .viraltextm {
+        margin-top: 10px
+    }
+
+    .header-box__imp {
+        margin-top: 0;
+        padding-left: 0
+    }
+
+    .header-box__big {
+        margin-top: 10px
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #section1 h2 {
+        font-size: 24px
+    }
+
+    .header-box__subtitle {
+        font-size: 33px
+    }
+
+    .header-box__big {
+        line-height: 1
+    }
+
+    .header-box__big span {
+        font-size: 68px !important;
+        letter-spacing: -3.5px !important
+    }
+
+    .productTitle, h1.mont60 {
+        font-size: 26px
+    }
+
+    .header-box__title {
+        font-size: 26px;
+        margin-top: 5px
+    }
+
+    .header-box__subtitle {
+        font-size: 25px
+    }
+
+    .header-box__big span {
+        font-size: 90px
+    }
+
+    .header-box__big {
+        font-size: 58px
+    }
+
+    .ketpoia-ketosis-banner .container h2 {
+        color: #00008B
+    }
+}
+
+select:-moz-focusring, a:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000
+}
+
+:focus, :visited, :active, :hover {
+    outline: 0 !important
+}
+
+a, a:focus, a:visited, a:active, a:hover {
+    outline: 0 !important
+}
+
+::-moz-focus-inner {
+    border: 0;
+    outline: none
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0
+}
+
+.navbar-brand img {
+    margin-right: 10px
+}
+
+.navbar-brand p {
+    margin: 0
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-brand {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .c2abtn {
+        font-size: 24px
+    }
+
+    .stayingKetosis h2 {
+        font-size: 100px
+    }
+
+    .navbar-header {
+        display: flex;
+        float: none !important
+    }
+
+    .navbar-nav {
+        float: none !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px
+    }
+
+    .navbar-collapse.collapse {
+        float: none !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+@media (max-width: 379px) {
+    .productTitle {
+        font-size: 18px
+    }
+}
+
+@media (max-width: 580px) {
+    .header-box__big {
+        font-size: 50px;
+        transform: none;
+        letter-spacing: normal
+    }
+
+    .header-box__big span {
+        letter-spacing: normal;
+        font-size: 50px !important;
+        font-size: 100px
+    }
+
+    .header-box__subtitle {
+        font-size: 35px
+    }
+}
+
+@media (max-width: 400px) {
+    .ever-popup__inner {
+        width: 300px !important
+    }
+}
+
+@media (min-width: 1200px) {
+    .dtop-ya {
+        height: 237px
+    }
+
+    .h2-ya {
+        min-height: 2.2em
+    }
+
+    .p-ya {
+        line-height: 1.4;
+        min-height: 9em
+    }
+}
+
+.popup__prod {
+    margin-right: 10px
+}
+
+@media (min-width: 1000px) {
+    .ever-popup__inner {
+        min-width: 580px
+    }
+}
+
+@media (max-width: 991px) {
+    .ketpoia-ketosis-banner {
+        background: url(../images/sea.jpg) no-repeat top -15px center;
+        min-height: 0;
+        padding: 75px 0
+    }
+
+    .arrowLine-first {
+        font-size: 21px
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important
+    }
+}
+
+@media (max-width: 767px) {
+    .allnatural {
+        background-size: cover;
+        background-position: center center;
+        padding-top: 75px;
+        padding-bottom: 75px
+    }
+}
+
+.somebr {
+    display: none !important
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .somebr {
+        display: block !important
+    }
+}
+
+.popup__form .formTop, .formTop {
+    font-size: 23px;
+    padding: 10px
+}
+
+.formBox {
+    width: 100%;
+    max-width: 322px
+}
+
+.popup__form {
+    margin: 0
+}
+
+@media (min-width: 480px) {
+    .navbar-brand {
+        flex-direction: row;
+        padding: 10px 0
+    }
+}
+
+.navbar-nav > li > a {
+    padding-left: 0;
+    padding-right: 15px
+}
+
+li a.order-btn {
+    padding-left: 15px
+}
+
+@media (max-width: 767px) {
+    #howto .img-responsive {
+        width: 50%;
+        max-width: 240px
+    }
+}
+
+@media (max-width: 659px) {
+    .stayingKetosis {
+        background-position: center center;
+        background-size: cover
+    }
+}
+
+@media (max-width: 991px) {
+    .ketopiainfo h3 {
+        font-size: 21px
+    }
+
+    .mont60 {
+        font-size: 48px
+    }
+}
+
+@media (max-width: 767px) {
+    .mont50 {
+        font-size: 36px
+    }
+}
+
+@media (max-width: 479px) {
+    .mont50 {
+        font-size: 25px
+    }
+}
+
+.flex-ccc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.flex-css {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start
+}
+
+.grow {
+    width: 100%
+}
+
+.img {
+    max-width: 100%
+}
+
+.wrapper {
+    padding: 0 15px;
+    max-width: 1170px;
+    margin: auto
+}
+
+.block03 {
+    background: url(../images/7-day-bridge-ketosis-bg.jpg) top center no-repeat;
+    min-height: 1013px;
+    padding-top: 100px
+}
+
+.block03__side {
+    width: 51%;
+    margin-left: 49%
+}
+
+.block03__title {
+    color: #F18704;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 20px;
+    font-size: 30px;
+    line-height: 1.1;
+    text-align: center
+}
+
+.block03__text {
+    text-align: center;
+    margin: 15px 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #363535
+}
+
+.block03__bottle {
+    margin-top: 15px;
+    text-align: center
+}
+
+.block02 {
+    padding: 50px 0;
+    background: #fff
+}
+
+.block02__content {
+    width: 62%;
+    padding-right: 2%
+}
+
+.block02__pic {
+    width: 38%
+}
+
+.block02__img2 {
+    display: none
+}
+
+.block02__title {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #04A8F5;
+    margin: 0 0 15px;
+    text-align: center
+}
+
+.block02__text {
+    color: #333;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 10px
+}
+
+.tdu {
+    text-decoration: underline
+}
+
+.block05 {
+    padding: 50px 0 10px;
+    background: #fff
+}
+
+.block05__title {
+    font-size: 27px;
+    font-weight: 300;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    text-align: center
+}
+
+.block05__subtitle {
+    font-size: 34px;
+    font-weight: 700;
+    color: #FC4200;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0
+}
+
+.block06 {
+    padding-top: 200px;
+    min-height: 845px;
+    background: url(../images/ketopia-ketosis-7day-bg.jpg) top center no-repeat
+}
+
+.block06__title {
+    font-family: "Montserrat", sans-serif;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #000;
+    margin: 0
+}
+
+.block06__img {
+    margin-top: 20px
+}
+
+.block12 {
+    position: relative;
+    background: url(../images/one.png) no-repeat top center;
+    background-size: 2000px;
+    min-height: 750px;
+    padding-top: 150px;
+    box-shadow: inset 0 -86px 40px -20px rgba(255, 255, 255, 1)
+}
+
+.block12::before {
+    position: absolute;
+    width: 100%;
+    content: "";
+    height: 3px;
+    background: #FFF;
+    left: 0;
+    bottom: -1px
+}
+
+.block12__content {
+    width: 66%;
+    margin-left: 34%;
+    margin-right: 0
+}
+
+.block12__pics {
+    position: relative
+}
+
+.block12__btn {
+    background-color: #FF4200;
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: inherit;
+    border-radius: 24px;
+    padding: 7px 50px;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    cursor: pointer
+}
+
+.block12__btn:hover {
+    background-color: #CA3400;
+    color: #CCC
+}
+
+.block12__arrow {
+    position: absolute;
+    bottom: -1px;
+    right: 90px
+}
+
+.block12__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #6B057E;
+    line-height: 1;
+    letter-spacing: -1.5px;
+    margin: 0 0 15px
+}
+
+.block12__subtitle {
+    font-weight: 700;
+    color: #6B057E;
+    font-size: 90px;
+    letter-spacing: -7.5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    transform: rotate(-7deg) skew(-15deg, 1deg);
+    text-align: center;
+    position: relative;
+    margin: 0 0 30px
+}
+
+.block12__subtitle span {
+    font-size: 114px;
+    letter-spacing: -14.5px
+}
+
+.block12__stamp {
+    position: absolute;
+    left: calc(50% + 75px);
+    bottom: 130px
+}
+
+.block01 {
+    background: url(../images/one.png) no-repeat top -30px center;
+    background-size: 2000px;
+    min-height: 760px;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 25px
+}
+
+.block01__left {
+    justify-content: flex-end;
+    margin-top: 30px;
+    width: 66%;
+    padding-left: 230px
+}
+
+.block01__right {
+    width: 34%;
+    margin-top: 25px
+}
+
+.block01__left_title {
+    text-shadow: 1px 1px 2px #000;
+    font-weight: 100;
+    line-height: 1;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    margin: 0
+}
+
+.block01__left_subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #6B057E;
+    line-height: 1;
+    letter-spacing: -1.5px;
+    margin: 5px 0 0
+}
+
+.block01__left_text {
+    padding-left: 150px;
+    text-align: center;
+    font-size: 24px;
+    margin: 75px 0 0
+}
+
+.block01__left_list {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 175px
+}
+
+.block01__left_item {
+    background: url(../images/header-list.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 16px 0 16px 75px;
+    position: relative;
+    min-height: 85px
+}
+
+.block01__check {
+    position: absolute;
+    top: 16px;
+    left: 14px;
+    width: 50px
+}
+
+.header__list_title {
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.1
+}
+
+.header__list_text {
+    font-size: 14px;
+    color: grey;
+    margin: 5px 0 0
+}
+
+.block01__left_prod {
+    position: absolute;
+    width: 180px;
+    bottom: 0;
+    left: 0
+}
+
+.block01 {
+    position: relative;
+    box-shadow: inset 0 -50px 30px -20px rgba(255, 255, 255, 1)
+}
+
+.block01::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 3px;
+    background: #fff
+}
+
+.block01__label {
+    height: 100px;
+    padding: 20px 0;
+    background: url(../images/bottom-arrow.png) no-repeat center;
+    background-size: contain
+}
+
+.block01__label_top {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    color: #FFF;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    margin: 0
+}
+
+.block01__label_bottom {
+    text-align: center;
+    line-height: 1;
+    color: #6B057E;
+    font-size: 18px;
+    margin: 10px 0 0
+}
+
+.block01__conc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #050505;
+    margin: 25px 0 0;
+    padding-left: 232px
+}
+
+.x_order_form .form__btn {
+    background: #e21d14;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 10px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    margin-top: 15px;
+    transition: .2s
+}
+
+.x_order_form .form__btn:hover {
+    border: 2px solid #e21d14
+}
+
+.x_order_form .form__btn:active {
+    transform: scale(1.05)
+}
+
+.block01__right_form {
+    margin-top: 20px
+}
+
+.block01__right_secure {
+    margin-top: 20px
+}
+
+#theproof {
+    padding-bottom: 50px
+}
+
+@media (max-width: 1199px) {
+    #theproof {
+        padding-bottom: 45px
+    }
+
+    .wrapper {
+        width: 970px
+    }
+
+    .block12__arrow {
+        right: 30px
+    }
+
+    .block01__left {
+        padding-left: 50px;
+        padding-right: 10px
+    }
+
+    .block01__conc {
+        padding: 0;
+        text-align: center
+    }
+
+    .block01__left {
+        margin-top: 35px
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .block01, .block12 {
+        background-position: top right -110px;
+        background-size: 2420px
+    }
+
+    .block01__left_text {
+        margin-top: 40px;
+        padding: 0 75px
+    }
+
+    .block12__content {
+        margin-left: 17%
+    }
+
+    .block12 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        min-height: 0;
+        box-shadow: inset 0 -49px 40px -4px rgba(255, 255, 255, 1)
+    }
+
+    .block01__conc {
+        text-align: left;
+        padding-left: 55px
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        width: 750px
+    }
+
+    .block12__arrow {
+        right: 60px
+    }
+
+    .block01 {
+        background: url(../images/one.png) no-repeat top right -100px;
+        padding: 0 0 40px;
+        min-height: 0
+    }
+
+    #theproof {
+        padding-bottom: 40px
+    }
+
+    .block03, .block06 {
+        background: url(../images/sea.jpg) no-repeat top center;
+        background-size: cover;
+        padding: 40px 0;
+        min-height: 0
+    }
+
+    .block12 {
+        background: url(../images/one.png) no-repeat top right -100px;
+        padding: 40px 0;
+        min-height: 0
+    }
+
+    .block06 {
+        background-size: auto
+    }
+
+    .block02, .block05, #science {
+        padding: 40px 0
+    }
+
+    .block03__title {
+        margin-top: 0;
+        font-size: 25px
+    }
+
+    .block03__side {
+        width: 100%;
+        margin: 0
+    }
+
+    .block02__content {
+        width: 58%
+    }
+
+    .block02__pic {
+        width: 42%
+    }
+
+    .block02__text {
+        font-size: 14px
+    }
+
+    .block05__title, .block05__subtitle {
+        font-size: 28px;
+        font-size: 19px
+    }
+
+    .block03__text {
+        text-shadow: 1px 1px 2px #fdfffc
+    }
+
+    .block06__title {
+        text-align: center;
+        font-size: 26px
+    }
+
+    .block06__img {
+        margin: 10px auto 0;
+        display: block
+    }
+
+    .block12__content {
+        width: 100%;
+        margin: 0
+    }
+
+    .block01__left {
+        width: 100%;
+        padding: 0
+    }
+
+    .block01__left_text {
+        padding: 0 50px;
+        margin-top: 20px;
+        text-align: center
+    }
+
+    .block01__left_prod {
+        width: auto;
+        max-height: 100%;
+        bottom: auto;
+        top: 0
+    }
+
+    .block01__left_list {
+        padding-left: 155px;
+        padding-right: 50px
+    }
+
+    .block01__right {
+        width: 100%;
+        max-width: 400px
+    }
+
+    .block01__right_stamps {
+        display: none
+    }
+
+    .block01__right_form {
+        margin-top: 0
+    }
+
+    .block01__conc {
+        display: none
+    }
+
+    .block01 {
+        background-size: 2600px
+    }
+
+    .block05 {
+        padding-top: 0 !important
+    }
+
+    .block01__right {
+        margin-top: 20px
+    }
+
+    .block01__label {
+        margin-top: 15px
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .allnatural {
+        background-size: cover;
+        min-height: 0;
+        padding: 90px 0
+    }
+
+    .block01__left_item {
+        padding-right: 15px;
+        padding-left: 70px
+    }
+}
+
+@media (max-width: 767px) {
+    .block12__stamp {
+        left: calc(50% + 54px);
+        bottom: 150px
+    }
+
+    .block01__left {
+        margin-top: 25px
+    }
+
+    #theproof {
+        padding-bottom: 25px
+    }
+
+    .wrapper {
+        width: 480px
+    }
+
+    .block12__arrow {
+        right: -10px
+    }
+
+    .container {
+        width: 480px
+    }
+
+    .block03, .block02, .block05, #science, .block06, #whatyouget, .block12 {
+        padding: 25px 0
+    }
+
+    .block02__content {
+        width: 100%;
+        padding: 0
+    }
+
+    .block02__pic {
+        width: 100%;
+        margin-top: 12px
+    }
+
+    .block02__img1 {
+        display: none
+    }
+
+    .block02__img2 {
+        display: block
+    }
+
+    .mont60 {
+        font-size: 42px
+    }
+
+    .block06__img {
+        width: 360px;
+        margin-top: 15px
+    }
+
+    .block06__title {
+        font-size: 24px
+    }
+
+    .block12__btn {
+        font-size: 38px
+    }
+
+    .block12__subtitle {
+        font-size: 68px
+    }
+
+    .block12__subtitle span {
+        font-size: 98px;
+        letter-spacing: -8px
+    }
+
+    .block01__left_prod {
+        max-width: 150px;
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%)
+    }
+
+    .block01__left_list {
+        padding-right: 0;
+        padding-left: 144px
+    }
+
+    .block01__left_item {
+        padding-left: 65px
+    }
+
+    .block01__label {
+        display: none
+    }
+
+    .block01 {
+        padding-bottom: 25px
+    }
+
+    .block01__check {
+        top: 20px;
+        width: 45px
+    }
+
+    .x_order_form .form__btn {
+        margin-top: 10px
+    }
+
+    .formBody {
+        padding: 24px 24px 20px
+    }
+}
+
+@media (max-width: 479px) {
+    .navbar-brand img {
+        margin: 0 0 3px
+    }
+
+    .navbar-brand {
+        padding: 0 8px
+    }
+
+    #theproof {
+        padding-bottom: 20px
+    }
+
+    .block01 {
+        padding-bottom: 20px
+    }
+
+    .wrapper {
+        width: 320px;
+        padding: 0 10px
+    }
+
+    .block12__arrow {
+        display: none
+    }
+
+    .container {
+        width: 320px;
+        padding: 0 10px
+    }
+
+    .block03, .block02, .block05, #science, .block06, #whatyouget, .block12 {
+        padding: 20px 0
+    }
+
+    .block06__img {
+        max-width: 260px
+    }
+
+    .block06__title {
+        font-size: 22px
+    }
+
+    #whatyouget .container {
+        padding: 0
+    }
+
+    .block05__title {
+        margin-bottom: 10px
+    }
+
+    .block12__btn {
+        font-size: 28px;
+        padding: 10px
+    }
+
+    .block12__title {
+        font-size: 32px;
+        margin-bottom: 5px
+    }
+
+    .block12__subtitle {
+        font-size: 60px
+    }
+
+    .block12__subtitle span {
+        font-size: 90px;
+        line-height: .9
+    }
+
+    .block01__left_title {
+        font-size: 30px
+    }
+
+    .block01__left_subtitle {
+        font-size: 32px
+    }
+
+    .block01__left_text {
+        padding: 0;
+        margin-top: 15px;
+        font-size: 22px
+    }
+
+    .block01__left_list {
+        padding: 0;
+        margin-top: 15px
+    }
+
+    .block01__left_prod {
+        position: static;
+        order: 11;
+        transform: none;
+        margin-top: 9px
+    }
+
+    .block01__left_item {
+        order: 5
+    }
+
+    .block01__right {
+        margin-top: 15px
+    }
+
+    .block01__left_item {
+        padding: 20px 6px 20px 60px
+    }
+
+    .block01__left_title, .block12__title {
+        line-height: 1.2
+    }
+
+    .block01__right_secure {
+        margin-top: 12px
+    }
+}
+
+.ever-popup.show {
+    display: flex !important
+}
+
+.ever-popup__inner {
+    margin: auto !important
+}
+
+@media (min-width: 992px) {
+    .block01__label {
+        margin-top: 6px
+    }
+
+    .block01__conc {
+        margin-top: 3px;
+        font-size: 22px;
+        max-width: 500px;
+        padding-left: 0;
+        margin-left: 230px;
+        text-align: center;
+        margin-right: auto
+    }
+
+    .popup__content {
+        background: url(../images/one.png) no-repeat top right -200px
+    }
+}
+
+.ever-popup-btn {
+    border: none
+}
+
+.inL_483080.inL_483080 {
+    display: inline-block
+}
+
+.inL_148694.inL_148694 {
+    margin-bottom: 0
+}
+
+.inL_906430.inL_906430 {
+    display: inline-block
+}
+
+.inL_776962.inL_776962 {
+    display: inline-block
+}
+
+.inL_383161.inL_383161 {
+    font-weight: 700
+}
+
+.inL_73201.inL_73201 {
+    font-weight: 700
+}
+
+.inL_379359.inL_379359 {
+    display: inline-block
+}
+
+.inL_562428.inL_562428 {
+    display: inline-block
+}
+
+.inL_894597.inL_894597 {
+    position: static
+}
+
+.inL_230655.inL_230655 {
+    background: #fff
+}
+
+.inL_609828.inL_609828 {
+    fill: orange
+}
+
+.inL_92168.inL_92168 {
+    fill: orange
+}
+
+.inL_514162.inL_514162 {
+    color: #000
+}
+
+.inL_679754.inL_679754 {
+    width: 210px
+}
+
+.inL_199140.inL_199140 {
+    width: 582px;
+    margin: 241.5px auto 20px
+}
+
+.inL_550498.inL_550498 {
+    width: 210px
+}
+
+p.form__footnote {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4px
+}
+
+p.form__text {
+    text-align: left;
+    margin-bottom: 15px
+}
+
+.form__text-flex {
+    display: flex;
+    justify-content: space-between
+}
+
+.inform {
+    text-align: center;
+    padding: 20px
+}
+
+@media screen and (min-width: 1200px) {
+    .block01__conc {
+        transform: translateY(-52%)
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .stayingKetosis h3 {
+        font-size: 35px
+    }
+
+    .stayingKetosis h2 {
+        font-size: 70px
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .stayingKetosis h3 {
+        font-size: 24px
+    }
+}
+.create_rom_footer {
+    padding-bottom: 10px;
+}
